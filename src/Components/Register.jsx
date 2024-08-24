@@ -1,6 +1,5 @@
 
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { FaUser, FaLock, FaEye, FaEyeSlash } from 'react-icons/fa';
 import { MdMail } from 'react-icons/md';
 import { toast } from 'react-toastify';
@@ -12,7 +11,7 @@ import { useNavigate } from 'react-router-dom';
 import SignInWithGoogle from './SignInWithGoogle';
 
 const provider = new GoogleAuthProvider();
-const navigate = useNavigate();
+
 
 function Register() {
     const [name, setName] = useState('');
