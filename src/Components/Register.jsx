@@ -1,5 +1,6 @@
 
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { FaUser, FaLock, FaEye, FaEyeSlash } from 'react-icons/fa';
 import { MdMail } from 'react-icons/md';
 import { toast } from 'react-toastify';
@@ -11,6 +12,7 @@ import { useNavigate } from 'react-router-dom';
 import SignInWithGoogle from './SignInWithGoogle';
 
 const provider = new GoogleAuthProvider();
+const navigate = useNavigate();
 
 function Register() {
     const [name, setName] = useState('');
@@ -199,7 +201,7 @@ function Register() {
 
                     <button className='my-4 py-2 w-full rounded-full bg-blue-600'>Register</button>
                     <SignInWithGoogle handleGoogleSignIn={handleGoogleSignIn} />
-                    <span className='text-[14px] pt-2'>Already have an account? <span className='font-semibold cursor-pointer' onClick={() => window.location.href = '/login'}>Login</span></span>
+                    <span className='text-[14px] pt-2'>Already have an account? <span className='font-semibold cursor-pointer' onClick={() => navigate('/login')}>Login</span></span>
                 </form>
             </div>
         </div>
