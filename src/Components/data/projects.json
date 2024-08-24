@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Tourism Website",
+        "description": "Created an engaging travel platform with responsive design, featuring images, videos, and carousels of famous destinations. Utilized HTML, CSS, and Bootstrap for a seamless user experience.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "Bootstrap"
+        ],
+        "source": "https://github.com/YasodhaNagireddi/Tourism-Website",
+        "demo": "https://yassutourism.ccbp.tech/",
+        "image": ""
+    },
+    {
+        "title": "Food Munch",
+        "description": "Developed a responsive, mobile-first website for browsing a wide range of food items, featuring product videos and seamless navigation. Utilized HTML, CSS, and Bootstrap for optimal performance.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "Bootstrap"
+        ],
+        "source": "https://github.com/YasodhaNagireddi/FoodMunch",
+        "demo": "https://yasfoodmuch.ccbp.tech/",
+        "image": ""
+    },
+    {
+        "title": "E-Commerce Website",
+        "description": "Created a fully responsive website showcasing a wide range of products with detailed information and product videos. User experience and implemented carousels for displaying multiple images of offers.",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "Bootstrap"
+        ],
+        "source": "https://github.com/YasodhaNagireddi/E-Commerce-Website-",
+        "demo": "https://buyecommerce.ccbp.tech/",
+        "image": ""
+    }
+]

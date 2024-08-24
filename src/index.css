@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: #0a0d13;
+    /* overflow: hidden; */
+    color: #ffffff;
+}
+
+.glow {
+    transition: all 0.3s ease-in-out;
+}
+
+.glow:hover {
+    box-shadow: 0 0 25px rgb(22, 131, 215);
+}
+
+.img_glow {
+    box-shadow: 0 0 25px rgb(22, 131, 215);
+}
+
+.card_glow {
+    box-shadow: 0 0 10px rgb(22, 131, 215);
+}
+
+.neno-button {
+    transition: all 0.3s ease-in-out;
+}
+
+.neno-button:hover {
+    box-shadow: 0 0 15px rgb(22, 131, 215);
+}
+
+.b_glow {
+    box-shadow: 0 0 15px rgb(22, 131, 215);
+}
